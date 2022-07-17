@@ -4,6 +4,14 @@ body {
     text-align: center;
 }
 
+.adding {
+  background-image: url("https://www.gannett-cdn.com/-mm-/e5c305e00d80354d1c0350948b3ccc39c5d4956e/c=0-202-3867-2377/local/-/media/Salinas/2015/03/19/B9316661963Z.1_20150319105958_000_GLQA8VSAM.1-0.jpg");
+}
+
+.adding_2 {
+  background-image: url("https://gray-wvue-prod.cdn.arcpublishing.com/resizer/5iCCI4Xy_dtXkt6sTf5gGao89ew=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/525NQWAC3NGO5PGEC3URYV5EK4.jpg");
+}
+
 .logo {
   display: block;
   margin-left: auto;
@@ -20,13 +28,23 @@ input {
 }
 
 .Results {
+  text-align: left;
+  background-size: 100%;
   background-color: white;
   margin-left: 150px;
   margin-right: 150px;
   margin-top: 20px;
   border-radius: 8px;
-  color: black;
+  color: rgb(231, 231, 231);
   padding: 10px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  height: 300px;
 }
 
+.sunny {
+  background-image: url("https://www.gannett-cdn.com/-mm-/e5c305e00d80354d1c0350948b3ccc39c5d4956e/c=0-202-3867-2377/local/-/media/Salinas/2015/03/19/B9316661963Z.1_20150319105958_000_GLQA8VSAM.1-0.jpg");
+}
+
+.cloudy {
+  background-image: url("https://gray-wvue-prod.cdn.arcpublishing.com/resizer/5iCCI4Xy_dtXkt6sTf5gGao89ew=/1200x675/smart/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/gray/525NQWAC3NGO5PGEC3URYV5EK4.jpg")
+}
