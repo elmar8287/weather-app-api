@@ -26,24 +26,18 @@ function App() {
         }
       );
   }, [city]);
-
-  // useEffect(() => {
-  //   if(name==="Celar") {
-  //     document.body.classList.add("adding");
-  //   }
-  // },[city]);
   
   function addClass() {
-    const a = document.getElementById("elem").classList;
-    a.remove("adding_2");
-    a.add("adding");
+    const elem = document.getElementById("elem").classList;
+    elem.remove("adding_2");
+    elem.add("adding");
     console.log("Hello")
   };
 
   function addClass_2 () {
-    const a = document.getElementById("elem").classList;
-    a.remove("adding");
-    a.add("adding_2");
+    const elem = document.getElementById("elem").classList;
+    elem.remove("adding");
+    elem.add("adding_2");
     console.log("Hello 2")
   };
 
